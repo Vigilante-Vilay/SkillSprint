@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Prisma generated client
+Backend/generated/prisma/
+
+# Frontend build files
+Frontend/dist/
+Frontend/.vercel/
+
+# Logs
+*.log
